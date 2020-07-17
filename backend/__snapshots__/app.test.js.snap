@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`works 1`] = `
+Object {
+  "header": Object {
+    "access-control-allow-origin": "*",
+    "connection": "close",
+    "content-length": "139",
+    "content-security-policy": "default-src 'none'",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Tue, 14 Jul 2020 07:41:51 GMT",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+  },
+  "req": Object {
+    "data": undefined,
+    "headers": Object {
+      "user-agent": "node-superagent/3.8.3",
+    },
+    "method": "GET",
+    "url": "http://127.0.0.1:63779/",
+  },
+  "status": 404,
+  "text": "<!DOCTYPE html>
+<html lang=\\"en\\">
+<head>
+<meta charset=\\"utf-8\\">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /</pre>
+</body>
+</html>
+",
+}
+`;

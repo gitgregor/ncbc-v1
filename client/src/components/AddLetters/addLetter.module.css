@@ -1,0 +1,54 @@
+/* @import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Trade+Winds&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Anton|Roboto+Mono:400,700|Trade+Winds&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Anton|Bowlby+One+SC|Roboto+Mono:400,700|Trade+Winds|Roboto+Slab&display=swap'); */
+
+
+@import url('https://fonts.googleapis.com/css?family=Aguafina+Script|Asset|Balthazar|Bungee+Hairline|Bungee+Shade|Carrois+Gothic+SC|Chango|Convergence|Cormorant+SC|Cormorant+Upright|Diplomata+SC|Ewert|Faster+One|Fredericka+the+Great|Frijole|Gravitas+One|Gruppo|Gurajada|IM+Fell+English|IM+Fell+English+SC|Jacques+Francois+Shadow|La+Belle+Aurore|Lemon|Londrina+Shadow|Londrina+Sketch|Metal+Mania|Monofett|Montez|Mr+De+Haviland|Mrs+Saint+Delafield|Notable|Pompiere|Qwigley|Rammetto+One|Roboto+Slab:100,200,300,400,500,600,700,800,900|Rubik+Mono+One|Slackey|Sonsie+One|Stardos+Stencil|Turret+Road|Walter+Turncoat|Zilla+Slab+Highlight:400,700&display=swap');
+
+
+.slogan {
+    /* font-family: 'Faster One'; */
+    /* font-family: 'Monofett'; */
+
+
+    /* padding-top: 100px; */
+    /* margin-top: 40px; */
+    /* color: coral; */
+    /* color: rgba(44, 144, 146, 1); */
+    font-family: 'Trade Winds';
+    /* font-family: 'Roboto Mono' ; */
+    /* font-family: 'Anton'; */
+    /* font-family: 'Bowlby One SC'; */
+    /* font-family: 'Fredericka the Great'; */
+    /* font-family: 'Roboto Slab'; */
+    /* font-family: 'Faster One'; */
+    color: gray;
+    /* font-size: 30px; */
+
+    background-color: black;
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 320px) {
+    .slogan {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+}
+
+
+/* @media screen and (max-height: 950px) and (max-width: 680px) {
+    .slogan {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-height: 950px) and (max-width: 595px) {
+    .slogan {
+        font-size: 30px;
+    }
+} */

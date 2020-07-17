@@ -1,0 +1,89 @@
+ @import url('https://fonts.googleapis.com/css?family=Aguafina+Script|Asset|Balthazar|Bungee+Hairline|Bungee+Shade|Carrois+Gothic+SC|Chango|Convergence|Cormorant+SC|Cormorant+Upright|Diplomata+SC|Ewert|Faster+One|Fredericka+the+Great|Frijole|Gravitas+One|Gruppo|Gurajada|IM+Fell+English|IM+Fell+English+SC|Jacques+Francois+Shadow|La+Belle+Aurore|Lemon|Londrina+Shadow|Londrina+Sketch|Metal+Mania|Monofett|Montez|Mr+De+Haviland|Mrs+Saint+Delafield|Notable|Pompiere|Qwigley|Rammetto+One|Roboto+Slab:100,200,300,400,500,600,700,800,900|Rubik+Mono+One|Slackey|Sonsie+One|Stardos+Stencil|Turret+Road|Walter+Turncoat|Zilla+Slab+Highlight:400,700&display=swap');
+
+ .logging-wrapper {
+     display: flex;
+     justify-content: space-evenly;
+
+     .logging {
+         display: flex;
+     }
+ }
+
+ .historia {
+     display: flex;
+     justify-content: center;
+     font-size: 25px;
+     margin-bottom: 20px;
+ }
+
+ .db-res-wrapper {
+     display: flex;
+     //  font-size: 30px;
+
+     .db-operation {
+         margin: 0 0 0 40px;
+
+
+         input {
+             display: flex;
+         }
+
+         button {
+             border: 4px solid blue;
+             border-radius: 30px;
+             outline: none;
+             box-shadow: 10px 10px 5px grey;
+             max-width: 350px;
+
+             background-color: yellowgreen;
+             text-transform: uppercase;
+             margin: 15px 0 20px 0;
+             transform: translateZ();
+             transition: .25s ease-out;
+         }
+
+         button:hover {
+             border: 4px solid black;
+             background-color: white;
+             color: #777;
+             font-weight: bold;
+             cursor: pointer;
+             transform: scale(1.01);
+         }
+
+         input {
+             display: flex;
+             flex-basis: 100%;
+
+             margin: 0 30px 0 0;
+             box-shadow: 10px 10px 5px grey;
+             border-radius: 5px;
+         }
+
+     }
+
+     .ul-list {
+         margin: 5px 0 40px 20px;
+         // font-family: 'Faster One';
+         // font-family: 'Monofett';
+         // font-family: 'Trade Winds';
+         // font-family: 'Roboto Mono';
+         // font-family: 'Anton';
+         // font-family: 'Bowlby One SC';
+         // font-family: 'Fredericka the Great';
+         font-family: 'Roboto Slab';
+
+         li {
+             margin: 7px 0 7px 0;
+         }
+     }
+
+     .delete {
+         margin: 0 0 10px 0;
+     }
+
+     .update {
+         margin: 0 0 40px 0;
+
+     }
+ }

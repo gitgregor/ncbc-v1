@@ -1,0 +1,41 @@
+.header {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    // margin-bottom: 25px;
+    background-color: rgb(7, 20, 14);
+    background-image: linear-gradient(to bottom right, rgb(7, 20, 14), blue);
+    // background-image: linear-gradient(to bottom right, rgb(7, 20, 14), green);
+    // background-color: lawngreen;
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+        height: 100px;
+        width: 100px;
+        padding: 25px;
+    }
+
+    .options {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+
+        .option {
+            padding: 10px 15px;
+            cursor: pointer;
+            color: white;
+            text-decoration: none;
+            font-size: 22px;
+            letter-spacing: 1px;
+
+            &:hover {
+                color: lawngreen
+            }
+        }
+    }
+}

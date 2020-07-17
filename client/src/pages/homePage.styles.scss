@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Aguafina+Script|Asset|Balthazar|Bungee+Hairline|Bungee+Shade|Carrois+Gothic+SC|Chango|Convergence|Cormorant+SC|Cormorant+Upright|Diplomata+SC|Ewert|Faster+One|Fredericka+the+Great|Frijole|Gravitas+One|Gruppo|Gurajada|IM+Fell+English|IM+Fell+English+SC|Jacques+Francois+Shadow|La+Belle+Aurore|Lemon|Londrina+Shadow|Londrina+Sketch|Metal+Mania|Monofett|Montez|Mr+De+Haviland|Mrs+Saint+Delafield|Notable|Pompiere|Qwigley|Rammetto+One|Roboto+Slab:100,200,300,400,500,600,700,800,900|Rubik+Mono+One|Slackey|Sonsie+One|Stardos+Stencil|Turret+Road|Walter+Turncoat|Zilla+Slab+Highlight:400,700&display=swap');
+
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Roboto Slab';
+    margin: 0 0 0 40px;
+
+    .user {
+        color: blue;
+        font-family: 'Roboto Slab';
+    }
+
+    .subPage {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        font-family: 'Monofett';
+    }
+}
