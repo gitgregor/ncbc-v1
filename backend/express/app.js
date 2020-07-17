@@ -11,7 +11,7 @@ const fs = require('fs');
 
 var crypto = require('crypto');
 
-// const API_PORT = 3001;
+const API_PORT = 3001;
 const app = express();
 app.use(cors());
 // secure headers
@@ -212,10 +212,10 @@ router.post('/putData', (req, res) => {
 // append /api path for http requests
 app.use('/api', router);
 
-// launch backend into a port
-// app.listen(API_PORT, () => console.log(`LISTENING ON PORT ${API_PORT}`));
+//launch backend into a port
+app.listen(API_PORT, () => console.log(`LISTENING ON PORT ${API_PORT}`));
 
-exports.app = app;
+// exports.app = app;
 
 
 
