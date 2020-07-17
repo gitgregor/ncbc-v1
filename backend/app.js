@@ -4,8 +4,8 @@ var cors = require('cors');
 const helmet = require("helmet");
 const bodyParser = require('body-parser');
 const logger = require('morgan');
-const Data = require('../models/data');
-const SignUpData = require('../models/signUpSchema')
+const Data = require('./models/data');
+const SignUpData = require('./models/signUpSchema')
 const path = require('path')
 const fs = require('fs');
 
